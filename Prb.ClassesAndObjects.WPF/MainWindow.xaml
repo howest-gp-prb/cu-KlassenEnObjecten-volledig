@@ -1,0 +1,21 @@
+﻿<Window x:Class="Prb.ClassesAndObjects.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.ClassesAndObjects.WPF"
+        mc:Ignorable="d"
+        Title="Klassen en objecten: Autovoorbeeld" Height="365" Width="497">
+    <Grid>
+        <Label Content="Auto's" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstCars" HorizontalAlignment="Left" Height="273" Margin="10,41,0,0" VerticalAlignment="Top" Width="199" SelectionChanged="lstCars_SelectionChanged" />
+        <Label Content="Automerk:" HorizontalAlignment="Left" Margin="216,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kleur:" HorizontalAlignment="Left" Margin="216,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prijs:" HorizontalAlignment="Left" Margin="216,103,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddNewCar" Content="Voeg nieuwe auto toe" HorizontalAlignment="Left" Margin="216,147,0,0" VerticalAlignment="Top" Width="253" Click="btnAddNewCar_Click" />
+        <TextBox x:Name="txtCarBrand" HorizontalAlignment="Left" Height="23" Margin="309,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="txtColor" HorizontalAlignment="Left" Height="23" Margin="309,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="23" Margin="309,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+
+    </Grid>
+</Window>
